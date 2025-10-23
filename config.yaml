@@ -1,0 +1,26 @@
+# Configuration for the YouTube Email Scraper
+
+# Folders settings
+input_folder: 'input'
+output_folder: 'output'
+
+# Browser settings
+# Language code (e.g., 'en-US', 'en-GB', 'ro', 'de')
+language: 'en-US'
+
+
+# Run the browser in headless mode (without a visible window).
+# true  -> runs in the background (faster, for automation, but it might generate more errors).
+# false -> opens a visible Chrome window (useful for debugging).
+headless: false
+
+# CSV Parsing settings
+# How to handle lines with a wrong number of columns in CSV files.
+# Options:
+#   'strict' -> Stops the script with an error (default pandas behavior).
+#   'warn'   -> Skips the bad line and shows a warning.
+csv_error_handling: 'warn'
+
+# Show or hide parser warnings when csv_error_handling is set to 'warn'.
+# Options: true or false
+show_csv_warnings: false
