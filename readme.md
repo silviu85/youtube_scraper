@@ -1,3 +1,6 @@
+# youtube_scraper
+Just a Youtube scraper in python
+
 ### 1. Running Instructions 
 
 #### Step 1: Environment Setup (One-Time)
